@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#logo {
+    height: 95px;
+    width: 269px;
+    margin: 200px auto 0;
+    background: url("https://www.google.co.uk/images/srpr/logo11w.png") no-repeat;
+    background-size: 269px 95px;
+    color: #777;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#logo p {
+    display: inline;
+    position: relative;
+    top: 69px;
+    left: 216px;
+}
+
+#search {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input {
+    border: 1px solid #999;
+    height: 24px;
+    width: 500px;
+    padding-left: 2px;
+    background: url("data:image/gif;base64,R0lGODlhHAAmAKIHAKqqqsvLy0hISObm5vf394uLiwAAAP///yH5BAEAAAcALAAAAAAcACYAAAO9eLpMIMYIQJi9DcYtKv6KtnHgB4yoAZSXKAyDy1rjoAzjzOQLrx8+4OanCAZnxiExGSEKmz3lj2lwUq3SZ3WZPbKuXGgxu9t4tLYDTkpIRQILF0x2G4lWipM7gj/oJQUkcXsCDCIFATULBCIcZ2tvB3QLDxETFnR/BgU/gRt9jX0gnpYMkJZpFzEoqQqJKAIBaQOVKHAXr3t7txgBjboSvB8EpLoFZywOAo3LFE5lYs/QW9LT1TRk1V7S2xYJADs=") no-repeat;
+    background-size: 14px 19px;
+    background-position: 485px;
+}
