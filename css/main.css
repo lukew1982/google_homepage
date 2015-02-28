@@ -1,5 +1,12 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 #logo {
@@ -53,12 +60,13 @@ button {
 
 #navbar {
     text-align: right;
+    margin: 15px 0 0 0;
 }
 
 li {
     display: inline-block;
     vertical-align: middle;
-    margin: 0 9px 0 0;
+    margin: 0 10px 0 0;
     font-size: small;
 }
 
@@ -72,11 +80,34 @@ li {
 }
 
 #navbar button {
-    margin: 0 14px 0 0;
+    margin: 0 15px 0 0;
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
     color: #fff;
     font-size: 13px;
-    font-weight: bold;
     padding: 7px 13px;
     border-radius: 3px;
+}
+
+#footer {
+    width: 100%;
+    background-color: #f1f1f1;
+    position: absolute;
+    bottom: 0;
+    color: #555;
+}
+
+#footer ul {
+    padding: 12px 17px;
+}
+
+#footer li {
+    margin: 0 13px;
+}
+
+#leftfoot{
+    float: left;
+}
+
+#rightfoot {
+    float: right;
 }
